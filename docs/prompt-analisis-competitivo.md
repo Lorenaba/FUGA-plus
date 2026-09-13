@@ -1,54 +1,54 @@
-Actúa como analista de mercado y producto digital senior, especializado en aplicaciones móviles de gestión de gastos personales e Inteligencia Artificial.
-CONTEXTO
+Prompt: Competitive Analysis
+Act as a senior market and digital product analyst specializing in personal expense management mobile apps and Artificial Intelligence.
+CONTEXT
 """
-FUGA+ es una aplicación móvil dirigida inicialmente a jóvenes y estudiantes. Su objetivo es ayudarles a comprender sus hábitos de gasto y descubrir posibles fugas de dinero relacionadas principalmente con gastos pequeños y repetitivos.
-El usuario podrá registrar sus gastos mediante texto escrito de forma natural. Por ejemplo: “Hoy gasté $8.000 en un taxi”.
-La Inteligencia Artificial interpretará y clasificará la información registrada, identificando elementos como valor, categoría y descripción.
-Los gastos serán almacenados en un historial y el sistema contará con un dashboard sencillo para consultar la información.
-FUGA+ utilizará reglas propias para identificar posibles fugas de dinero a partir de los gastos registrados.
-El proyecto será desarrollado individualmente durante 12 semanas.
-El MVP no incluirá conexión con cuentas bancarias, pagos, transferencias, tarjetas bancarias, créditos, préstamos, inversiones, asesoría financiera profesional, entrenamiento de un modelo de IA propio, predicción de mercados, información bancaria real de terceros ni integraciones bancarias externas.
-La funcionalidad de voz será opcional y no será un requisito principal del MVP.
+FUGA+ is a mobile app initially targeted at young people and students. Its goal is to help them understand their spending habits and discover potential money leaks—primarily those linked to small, recurring expenses.
+Users will be able to log expenses using natural language text. For example: “Today I spent $8,000 on a taxi.”
+Artificial Intelligence will interpret and classify the logged information, identifying elements such as amount, category, and description.
+Expenses will be stored in a history log, and the system will feature a simple dashboard for reviewing the data.
+FUGA+ will use proprietary rules to identify potential money leaks based on the logged expenses.
+The project will be developed individually over a 12-week period.
+The MVP will not include connections to bank accounts, payments, transfers, bank cards, credit lines, loans, investments, professional financial advice, training of a proprietary AI model, market prediction, real third-party banking data, or external banking integrations.
+Voice functionality will be optional and not a core requirement for the MVP.
 """
-TAREA
-Identifica 3 aplicaciones reales que puedan considerarse competidores directos o indirectos de FUGA+.
-Analiza sus principales características y compáralas con la propuesta de FUGA+ para identificar oportunidades reales de diferenciación.
-FORMATO DE SALIDA
-Primero presenta cada competidor utilizando este formato:
-Competidor 1: [Nombre]
-•	Tipo de competencia:
-•	Público objetivo:
-•	Forma de registrar gastos:
-•	Uso de Inteligencia Artificial:
-•	Análisis de gastos:
-•	Fortalezas:
-•	Limitaciones frente a FUGA+:
-Repite el mismo formato para los tres competidores.
-Después presenta:
-Oportunidades de diferenciación
+TASK
+Identify 3 real-world applications that could be considered direct or indirect competitors to FUGA+.
+Analyze their key features and compare them with the FUGA+ proposal to identify genuine opportunities for differentiation.
+OUTPUT FORMAT
+First, present each competitor using this format:
+Competitor 1: [Name]
+•	Type of competition:
+•	Target audience:
+•	Expense logging method:
+•	Use of Artificial Intelligence:
+•	Expense analysis:
+•	Strengths:
+•	Limitations compared to FUGA+:
+Repeat the same format for all three competitors.
+Then present:
+Opportunities for differentiation
 1.	...
 2.	...
 3.	...
-Principal ventaja competitiva de FUGA+:
+FUGA+’s main competitive advantage:
 ...
-Conclusión:
-Máximo 100 palabras.
-EJEMPLO DEL NIVEL ESPERADO
-Competidor 1: Aplicación X
-•	Tipo de competencia: Directa.
-•	Público objetivo: Personas que desean controlar sus gastos.
-•	Forma de registrar gastos: Registro manual.
-•	Uso de Inteligencia Artificial: [NO CONFIRMADO].
-•	Fortaleza: Permite organizar los gastos por categorías.
-•	Limitación frente a FUGA+: No está enfocada específicamente en identificar posibles fugas a partir de gastos pequeños y repetitivos.
-RESTRICCIONES
-1.	Utiliza únicamente aplicaciones reales.
-2.	No inventes características de los competidores.
-3.	Si una característica no puede confirmarse, utiliza [NO CONFIRMADO].
-4.	No agregues funcionalidades que estén fuera del MVP de FUGA+.
-5.	No presentes FUGA+ como una aplicación bancaria.
-6.	No afirmes que FUGA+ es superior sin explicar el criterio.
-7.	Utiliza el concepto de posibles fugas de dinero.
-8.	Mantén el análisis centrado en jóvenes y estudiantes.
-9.	Considera que el proyecto será desarrollado por una sola persona durante 12 semanas.
-10.	Separa claramente los datos proporcionados del contexto de las instrucciones del análisis.
+Conclusion:
+Maximum 100 words. EXAMPLE OF EXPECTED LEVEL
+Competitor 1: App X
+•	Type of competition: Direct.
+•	Target audience: People who want to track their expenses.
+•	Expense recording method: Manual entry.
+•	Use of Artificial Intelligence: [UNCONFIRMED].
+•	Strength: Allows expenses to be organized by category.
+•	Limitation compared to FUGA+: It does not specifically focus on identifying potential "leaks" arising from small, recurring expenses.
+RESTRICTIONS
+1.	Use only real applications.
+2.	Do not invent features for competitors.
+3.	If a feature cannot be confirmed, use [UNCONFIRMED].
+4.	Do not add functionalities that fall outside the scope of the FUGA+ MVP.
+5.	Do not present FUGA+ as a banking app.
+6.	Do not claim FUGA+ is superior without explaining the criteria.
+7.	Use the concept of potential money leaks.
+8.	Keep the analysis focused on young people and students.
+9.	Consider that the project will be developed by a single person over 12 weeks.
+10.	Clearly separate the provided data from the context of the analysis instructions.

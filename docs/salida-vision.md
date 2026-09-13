@@ -1,52 +1,49 @@
-# Documento de visión inicial de FUGA+
+# Documento de Visión — FUGA+
 
 ## 1. Problema
 
-Muchas personas realizan pequeños gastos durante el día que pueden pasar desapercibidos o ser difíciles de recordar posteriormente, lo que dificulta comprender con claridad en qué se utiliza el dinero y reconocer patrones de consumo relacionados con gastos pequeños y repetitivos. Además, el registro manual de cada gasto puede resultar tedioso y dificultar el seguimiento constante de los hábitos de consumo.
+Muchas personas incurren en pequeños gastos a lo largo del día y posteriormente no logran recordar con claridad en qué se les fue el dinero. Adicionalmente, registrar manualmente cada gasto puede resultar tedioso, lo que dificulta llevar un seguimiento constante de los hábitos de consumo.
 
 ## 2. Usuarios
 
-Los usuarios objetivo de FUGA+ son inicialmente **jóvenes y estudiantes** que desean organizar sus gastos cotidianos y comprender mejor sus hábitos de consumo sin recurrir a herramientas financieras complejas. Su principal necesidad relacionada con el problema es contar con una forma sencilla de registrar sus gastos y consultar posteriormente la información para identificar posibles patrones relacionados con sus gastos cotidianos.
+Los usuarios objetivo son, inicialmente, jóvenes y estudiantes que desean organizar sus gastos diarios y comprender mejor sus hábitos de consumo, sin necesidad de recurrir a herramientas financieras complejas.
 
 ## 3. Propuesta de valor
 
-FUGA+ ofrece una forma sencilla de registrar gastos mediante **texto escrito en lenguaje natural**, evitando que el usuario tenga que introducir manualmente cada dato por separado. La Inteligencia Artificial interpreta la información proporcionada e identifica elementos como el valor, la categoría y la descripción del gasto. Posteriormente, los gastos son almacenados y pueden consultarse mediante un historial y un dashboard sencillo.
-
-El principal elemento diferenciador de FUGA+ es la combinación del **registro de gastos mediante lenguaje natural, la interpretación y clasificación mediante IA y la identificación de posibles fugas de dinero mediante reglas propias**, especialmente aquellas relacionadas con gastos pequeños y repetitivos.
+FUGA+ permite registrar gastos mediante texto en lenguaje natural (por ejemplo: "Hoy gasté $8.000 en un taxi"), evitando la tediosidad del registro manual tradicional. La Inteligencia Artificial interpreta y clasifica la información del gasto, identificando elementos como monto, categoría y descripción, lo que reduce la fricción de mantener un registro constante. A partir de los gastos almacenados, el sistema analiza patrones mediante reglas propias para identificar posibles fugas de dinero, principalmente aquellas asociadas a gastos pequeños y repetitivos. El principal factor diferenciador de FUGA+ es la combinación de un registro simple por lenguaje natural con un enfoque específico en detectar fugas de dinero por gastos pequeños y recurrentes, sin requerir el uso de herramientas financieras complejas.
 
 ## 4. Alcance del MVP
 
-La primera versión funcional de FUGA+ incluirá únicamente las funcionalidades necesarias para cumplir con el objetivo principal del proyecto:
+La primera versión funcional de FUGA+ debe incluir:
 
-* **Registro de gastos mediante texto:** el usuario podrá registrar un gasto utilizando una descripción escrita de forma natural, por ejemplo: “Hoy gasté $8.000 en un taxi”.
-* **Interpretación mediante Inteligencia Artificial:** la IA procesará el texto introducido por el usuario para interpretar la información correspondiente al gasto.
-* **Clasificación de gastos mediante IA:** el sistema identificará y clasificará elementos del gasto, como el valor, la categoría y la descripción.
-* **Almacenamiento de gastos:** la información interpretada será almacenada para permitir su consulta posterior.
-* **Historial de gastos:** el usuario podrá consultar los gastos que haya registrado.
-* **Dashboard sencillo:** se presentará la información de los gastos registrados de manera que facilite su consulta y comprensión.
-* **Identificación de posibles fugas de dinero:** el sistema analizará los gastos registrados mediante reglas propias para identificar posibles fugas relacionadas principalmente con gastos pequeños y repetitivos.
+- Registro de gastos mediante texto en lenguaje natural.
+- Interpretación y clasificación de los gastos mediante Inteligencia Artificial (identificación de monto, categoría y descripción).
+- Almacenamiento de los gastos registrados y visualización mediante un historial.
+- Un dashboard simple con información sobre los gastos registrados.
+- Identificación de posibles fugas de dinero mediante reglas propias, principalmente relacionadas con gastos pequeños y repetitivos.
+- Consulta básica de los gastos registrados.
 
-## 5. Fuera del alcance
+[ASSUMPTION] La funcionalidad de registro por voz no forma parte del alcance base del MVP; según el contexto del proyecto, podrá evaluarse como funcionalidad adicional únicamente si el tiempo del proyecto lo permite.
 
-Las siguientes funcionalidades no serán desarrolladas dentro del MVP:
+## 5. Fuera de alcance
 
-1. Conexión con cuentas bancarias.
-2. Pagos.
-3. Transferencias.
-4. Manejo de tarjetas.
-5. Créditos.
-6. Préstamos.
-7. Inversiones.
-8. Asesoría financiera profesional.
-9. Entrenamiento de un modelo de Inteligencia Artificial propio.
-10. Predicción de inversiones o mercados.
-11. Consulta o utilización de información bancaria real de terceros.
-12. Notificaciones avanzadas.
-13. Escaneo avanzado de recibos.
-14. Integraciones bancarias externas.
+Explícitamente no se desarrollarán dentro del MVP las siguientes funcionalidades:
 
-La **funcionalidad de registro mediante voz** se considera una posibilidad adicional y podrá evaluarse durante el desarrollo si el tiempo disponible lo permite. Por lo tanto, no forma parte del alcance obligatorio del MVP.
+- Conexión a cuentas bancarias.
+- Pagos.
+- Transferencias.
+- Gestión de tarjetas.
+- Líneas de crédito.
+- Préstamos.
+- Inversiones.
+- Asesoría financiera profesional.
+- Entrenamiento de un modelo de IA propio.
+- Predicción de inversión o de mercado.
+- Datos bancarios reales de terceros.
+- Notificaciones avanzadas.
+- Escaneo avanzado de recibos.
+- Integraciones bancarias externas.
 
 ## 6. Objetivo del proyecto
 
-Durante las 12 semanas de desarrollo se espera construir una primera versión funcional de FUGA+ que permita registrar gastos cotidianos mediante texto natural, utilizar Inteligencia Artificial para interpretar y clasificar la información, almacenar y consultar los gastos mediante un historial y un dashboard sencillo, e identificar posibles fugas de dinero mediante reglas propias. El objetivo es desarrollar una solución viable para un proyecto individual que permita abordar el problema planteado sin incorporar funcionalidades financieras complejas que excedan el alcance del MVP.
+Se espera que, a lo largo de las 12 semanas de desarrollo individual, FUGA+ alcance una versión funcional del MVP descrito, capaz de registrar gastos mediante lenguaje natural, interpretarlos y clasificarlos mediante IA, almacenarlos y presentarlos en un historial y un dashboard simple, y aplicar reglas propias para identificar posibles fugas de dinero asociadas a gastos pequeños y repetitivos, dentro de un alcance viable para ser desarrollado por una sola persona.
